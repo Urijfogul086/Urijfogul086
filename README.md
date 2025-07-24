@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @Urijfogul086
-- 👀 I’m interested in PowerShell .NET Python
-- 🌱 I’m currently learning Powershell, Python
+- 👀 I’m interested in experiments with all formats, etc.
+- 🌱 I’m currently learning Powershell, Python, C#
 - 💞️ I’m looking to collaborate on At the moment I don’t know anyone to collaborate with.
-- 📫 How to reach me in X.
+- 📫 How to reach me in Telegram.
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: If your device memory is full and nothing is missing, you need to delete the program itself, which weighs a lot.
 
