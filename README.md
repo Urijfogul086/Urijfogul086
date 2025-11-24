@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @Urijfogul086
+- 👋 Hi, I’m @Urijfogul086GTM
 - 👀 I’m interested in experiments with all formats, etc.
 - 🌱 I’m currently learning Powershell, Python, C#
-- 💞️ I’m looking to collaborate on At the moment I don’t know anyone to collaborate with.
-- 📫 How to reach me in Telegram.
+- 💞️ For me, everyone can be a collaborators, even with fool with cats and dogs.
+- 📫 How to reach me in Telegram, Facebook.
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: If your device memory is full and nothing is missing, you need to delete the program itself, which weighs a lot.
 
