@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Urijfogul086GTM - Terminal Access</title>
+<style>
+    body { background-color: #000; color: #00ff00; font-family: "Courier New", Courier, monospace; margin: 20px; }
+    a { color: #00ff00; text-decoration: underline; }
+    .lang-box { border: 1px solid #00ff00; padding: 10px; margin-bottom: 20px; }
+    .video-container { margin: 20px 0; border: 2px solid #555; padding: 10px; }
+    hr { border: 0; border-top: 1px dashed #00ff00; }
+    .disclaimer { font-size: 0.8em; color: #ff0000; }
+</style>
+</head>
+<body>
+
+<div class="lang-box">
+    [ RU / EN ] - SELECT YOUR DESTINY
+</div>
+
+<h1>> URIJFOGUL086GTM_OFFICIAL_DATING_SYSTEM</h1>
+<p>Добро пожаловать в хаб разнообразия и иронии.</p>
+
+<hr>
+
+<h3>[ КАНАЛЫ / LINKS ]</h3>
+<ul>
+    <li><a href="https://github.com/Urijfogul086GTM">GITHUB REPO</a></li>
+    <li><a href="https://youtube.com/@urijfogul086GTM">YOUTUBE: Urijfogul086GTM</a></li>
+    <li><a href="https://t.me/urijfogul086GTM">TELEGRAM: JOIN THE CHAOS</a></li>
+</ul>
+
+<hr>
+
+<h3>[ КОЛЛЕГИ ПО ЦЕХУ / BROTHERS IN ARMS ]</h3>
+<p>
+    <b>MINORRIX:</b> Музыкальный гений. Ниже - пульт управления его треками.<br>
+    <b>SHVITO:</b> Наблюдает за порядком в терминале.<br>
+    <b>ЛЕАПОЛЬД I:</b> Всё еще мучается со своим Дипинсом (Deepins). Лео, мы с тобой!
+</p>
+
+<blockquote>
+    "Если к нам заглянет сам Дипинс - мы будем рады. Места хватит всем, даже тем, кто запутался в своих волосах."
+</blockquote>
+
+<hr>
+
+<h3>[ MINORRIX PLAYER (EXPERIMENTAL) ]</h3>
+<div class="video-container">
+    <p>Текущий трек: <span id="trackName">MINORRIX - ESCAPE</span></p>
+    <iframe id="minorrixPlayer" width="320" height="240" src="https://www.youtube.com/watch?v=yMPSonkw-uE" frameborder="0" allowfullscreen></iframe>
+    <br><br>
+    <button onclick="nextTrack()">СЛЕДУЮЩИЙ ТРЕК / NEXT TRACK</button>
+</div>
+
+<hr>
+
+<h3>[ СЛОВО АДМИНА / ADMIN LOGS ]</h3>
+<p>
+    Благодарю всех подписчиков. Вы топливо этого безумия. 
+    Все права НЕ защищены All rights UNPROTECTED. Копируйте, ломайте, создавайте.
+</p>
+
+<p><i>Logged in as: admin_root</i></p>
+
+<script>
+    var tracks = [
+        {name: "MINORRIX - ESSENTIAL", id: "VLAuZisRgf0"},
+        {name: "MINORRIX - ENERGY", id: "qSvA9W0S5Jc"},
+        {name: "MINORRIX - EXPANCE", id: "1r844Z_WRps"}
+    ];
+    var currentTrack = 0;
+
+    function nextTrack() {
+        currentTrack = (currentTrack + 1) % tracks.length;
+        document.getElementById('minorrixPlayer').src = "https://www.youtube.com/embed/" + tracks[currentTrack].id;
+        document.getElementById('trackName').innerText = tracks[currentTrack].name;
+    }
+</script>
+
+</body>
+</html>
